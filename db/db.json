@@ -1,16 +1,12 @@
 [
     {
-        "title": "Test Title",
-        "text": "Test text"
-    },
-    {
-        "title": "Hello world",
-        "text": "David Blaine",
-        "id": "e9dfd193-c136-4c99-bd87-ac7660d49d2f"
-    },
-    {
         "title": "Groceries",
         "text": "- milk\n- eggs\n- bread\n",
         "id": "9506ed59-d221-4f9f-8f91-b2285547c979"
+    },
+    {
+        "title": "To do:",
+        "text": "- Code\n- Make dinner\n- Go to the post office",
+        "id": "75ce4c89-a272-451d-b855-64695aa47c63"
     }
 ]
