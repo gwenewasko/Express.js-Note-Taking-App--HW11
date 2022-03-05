@@ -1,4 +1,4 @@
-# 11 Express-js Note Taking App
+# 11 Express.js Note Taking App
 
 ## Description:
 
@@ -8,7 +8,9 @@ They can then open previous notes to read in the list of notes on the lefthand s
 
 ## Screenshot
 
+![Note taking app showing current edited note as well as previous notes list on the left](./img/hw11-note-taking-app.png)
+
 ## Links
 
-- Here is my deployed application:[herokuapp.com/notes](https://express-note-taking-app-ge.herokuapp.com/notes)
-- Here is my repo:[gwenewasko/repo](https://github.com/gwenewasko/Express.js-Note-Taking-App--HW11)
+- Here is my deployed application: [herokuapp.com/notes](https://express-note-taking-app-ge.herokuapp.com/notes)
+- Here is my repo: [gwenewasko/repo](https://github.com/gwenewasko/Express.js-Note-Taking-App--HW11)
