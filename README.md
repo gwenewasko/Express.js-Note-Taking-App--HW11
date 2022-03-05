@@ -10,5 +10,5 @@ They can then open previous notes to read in the list of notes on the lefthand s
 
 ## Links
 
-- Here is my deployed application:()
-- Here is my repo:()
+- Here is my deployed application:[herokuapp.com/notes](https://express-note-taking-app-ge.herokuapp.com/notes)
+- Here is my repo:[gwenewasko/repo](https://github.com/gwenewasko/Express.js-Note-Taking-App--HW11)
