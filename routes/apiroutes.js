@@ -14,9 +14,9 @@ router.get("/notes", (req, res) => {
 // Post request
 router.post("/notes", (req, res) => {
   const { title, text } = req.body;
-  // If all the required properties are present
+  // Required parameters
   if (title && text) {
-    // Variable for the object we will save
+    // Variable for the note to save
     const newNote = {
       title,
       text,
@@ -34,17 +34,6 @@ router.post("/notes", (req, res) => {
   } else {
     res.json("Error in posting note");
   }
-});
-
-// DELETE request
-router.delete("/:notes_id", (req, res) => {
-  const noteId = req.params.notes_id;
-  readFromFile("./db/db.json").then((data) => res.json(JSON.parse(data)));
-  then((json) => {
-    const result = json.filter((note) => note.notes_id !== noteId);
-    writeToFile("./db/db/json", result);
-    res.json(`This note has been deleted.`);
-  });
 });
 
 module.exports = router;
